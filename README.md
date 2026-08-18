@@ -1,10 +1,11 @@
-# hello-world
+# 你好世界
 
-我的第一个GitHub仓库，用来存C语言练习代码。
+这是我的第一个C语言程序仓库，用于练习和存放基础代码。
 
 ## 内容
 
-- test.c —— 第一个C程序，输出 Hello World
+- `100.c` —— 一个简单的找零计算程序
+- `test.c` —— 第一个 Hello World 程序
 
 ## 环境
 
@@ -14,6 +15,7 @@
 
 ## 如何运行
 
-```bash
-gcc test.c -o test.exe
-./test.exe
+1. 克隆本仓库
+2. 用 gcc 编译：`gcc 100.c -o 100.exe`
+3. 运行：`./100.exe`
+4. 输入价格，查看找零结果
