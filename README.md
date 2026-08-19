@@ -11,6 +11,7 @@
 | `test.c` | 第一个 C 程序，输出 Hello World | printf、main 函数 |
 | `100.c` | 找零计算程序：输入价格，输出应找金额 | 变量、scanf、算术运算 |
 | `practice.c` | 成绩统计程序：输入成绩直到 -1，输出总人数、总分、平均分 | while 循环、累加、类型转换 |
+| `circle.c` | 计算圆面积：输入半径，输出面积（保留两位小数） | float 类型、浮点运算、格式化输出 |
 
 ---
 
@@ -30,5 +31,5 @@
 
 示例：
 ```bash
-gcc practice.c -o practice.exe
-./practice.exe
+gcc circle.c -o circle.exe
+./circle.exe
