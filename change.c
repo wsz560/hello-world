@@ -4,9 +4,9 @@
 int main()
 {
     int price = 0;
-    printf("ÇëÊäÈë¼Û¸ñ:");
+    printf("è¯·è¾“å…¥ä»·æ ¼:");
     scanf("%d", &price);
     int change = 100 - price;
-    printf("ÕÒÁã: %d\n", change);
+    printf("æ‰¾é›¶: %d\n", change);
     return 0;
 }

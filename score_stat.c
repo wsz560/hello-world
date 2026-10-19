@@ -6,7 +6,7 @@ int main()
     int sum=0;
     while(1)
     {
-        printf("ÇëÊäÈë³É¼¨£¨-1ÍË³ö):");
+        printf("è¯·è¾“å…¥æˆç»©ï¼ˆ-1é€€å‡º):");
         scanf("%d",&score);
 
         if(score==-1)
@@ -16,10 +16,10 @@ int main()
         count++;
         sum = sum + score;
     }
-    printf("×ÜÈËÊı£º%d\n", count);
-    printf("×Ü·Ö£º%d\n", sum);
+    printf("æ€»äººæ•°ï¼š%d\n", count);
+    printf("æ€»åˆ†ï¼š%d\n", sum);
     if (count > 0) {
-        printf("Æ½¾ù·Ö£º%f\n", (float)sum / count);
+        printf("å¹³å‡åˆ†ï¼š%f\n", (float)sum / count);
     }
     return 0;
 }

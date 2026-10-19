@@ -2,11 +2,11 @@
 
 int main()
 {
-    int n;
-    printf("请输入一个整数：");
+    int n, i;
+    printf("璇疯緭鍏ヤ竴涓暣鏁帮細");
     scanf("%d", &n);
 
-    for (int i = 1; i <= n; i++) {
+    for (i = 1; i <= n; i++) {
         if (i % 2 != 0) {
             printf("%d ", i);
         }

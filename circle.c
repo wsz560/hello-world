@@ -3,9 +3,9 @@ int main()
 {
     float radius;
     float area;
-    printf("请输入圆的半径：");
+    printf("璇疯緭鍏ュ渾鐨勫崐寰勶細");
     scanf("%f",&radius);
     area = 3.14 * radius * radius;
-    printf("圆的面积是：%.2f",area);
+    printf("鍦嗙殑闈㈢Н鏄細%.2f",area);
     return 0;
 }

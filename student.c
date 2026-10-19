@@ -7,19 +7,20 @@ struct student
 int main()
 {
     struct student s[30];
-    int n;
-    printf("ÇëÊäÈëÑ§ÉúÈËÊı(²»³¬¹ı30):");
+    int n, i;
+    float sum = 0;
+    float max, min;
+    printf("è¯·è¾“å…¥å­¦ç”Ÿäººæ•°(ä¸è¶…è¿‡30):");
     scanf("%d", &n);
-    for (int i = 0; i < n; i++) {
-    printf("ÇëÊäÈëµÚ%d¸öÑ§ÉúµÄĞÕÃû:", i + 1);
+    for (i = 0; i < n; i++) {
+    printf("è¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿçš„å§“å:", i + 1);
     scanf("%s", s[i].name);
-    printf("ÇëÊäÈëµÚ%d¸öÑ§ÉúµÄ³É¼¨:", i + 1);
+    printf("è¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿçš„æˆç»©:", i + 1);
     scanf("%f", &s[i].score);
 }
-    float sum = 0;
-    float max = s[0].score;
-    float min = s[0].score;
-    for (int i = 0; i < n; i++) {
+    max = s[0].score;
+    min = s[0].score;
+    for (i = 0; i < n; i++) {
     sum += s[i].score;     
 
     if (s[i].score > max) {
@@ -29,10 +30,10 @@ int main()
         min = s[i].score;
     }
 }
-    printf("×Ü·Ö:%.2f\n", sum);
-    printf("×î¸ß·Ö:%.2f\n", max);
-    printf("×îµÍ·Ö:%.2f\n", min);
-    printf("Æ½¾ù·Ö:%.2f\n", sum / n);
+    printf("æ€»åˆ†:%.2f\n", sum);
+    printf("æœ€é«˜åˆ†:%.2f\n", max);
+    printf("æœ€ä½åˆ†:%.2f\n", min);
+    printf("å¹³å‡åˆ†:%.2f\n", sum / n);
     return 0;
 
 }
